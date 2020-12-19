@@ -54,8 +54,8 @@ while "three" has the ends about 10,000 base pairs apart, which exceeds 1000.
 **b)** Assume we have at our disposal multiple computers, and our input BED files are really big.
 Is there a way to combine what you have done at 1) with 2a) to speed up the process ?
 
-
-Notes:
+------
+Notes:\
 **1.** Please provide test examples for both 1) and 2) I want to see 3 example sizes for each 
 
 * small: BED file(s) with less than 50 entries
@@ -66,7 +66,7 @@ Notes:
 **2.** As a good practice, please insert comments in your code to make it
 more readable, but also easy to execute/maintain/develop by somebody else than
 yourself.
-
+-----
 
 **Problem 3.** Please download GPL6947-xxx.txt, the platform of microarray at
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6947
