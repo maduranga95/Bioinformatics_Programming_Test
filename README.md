@@ -56,7 +56,7 @@ Is there a way to combine what you have done at 1) with 2a) to speed up the proc
 
 
 Notes:
-**1.** Please provide test examples for both 1) and 2) I want to see 3 example sizes for each
+**1.** Please provide test examples for both 1) and 2) I want to see 3 example sizes for each [See the attached input and output .bed files]
 * small: BED file(s) with less than 50 entries
 * medium: BED file(s) with ~ 1,000 entries
 * large: BED file(s) with ~100,000 entries
