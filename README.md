@@ -9,9 +9,9 @@ http://genome.ucsc.edu/FAQ/FAQformat.html#format1
 
 As an example, you might get a TAB-delimited text file containing lines such as
 
-chr1    3   10  one 1   + <br/>
-chr2    4   5   two 1   + <br/>
-chr2    1000    2000    three   1   + <br/>
+chr1    3   10  one 1   + \
+chr2    4   5   two 1   + \
+chr2    1000    2000    three   1   + \
 
 
 with the following fields
@@ -41,32 +41,32 @@ For example
 File 1: \
 chr1    3   10  one 1   + \
 chr2    4   5   two 1   + \
-chr2    1000    2000    three   1   + \
+chr2    1000    2000    three   1   +  \
 
-File 2:\
-chr7    3   10  one 1   +\
-chr2    450   700   two 1   +\
-chr2    11000    12000    three   1   +\
+File 2: \
+chr7    3   10  one 1   + \
+chr2    450   700   two 1   + \
+chr2    11000    12000    three   1   + \
 
 The only read that passes is "two". Read "one" has the ends mapping on different chromosomes,
 while "three" has the ends about 10,000 base pairs apart, which exceeds 1000.
 
-b) Question. Assume we have at our disposal multiple computers, and our input BED files are really big.
+**b)** Question. Assume we have at our disposal multiple computers, and our input BED files are really big.
 Is there a way to combine what you have done at 1) with 2a) to speed up the process ?
 
 
 Notes:
-1. Please provide test examples for both 1) and 2). I want to see 3 example sizes for each
+**1.** Please provide test examples for both 1) and 2) I want to see 3 example sizes for each
 * small: BED file(s) with less than 50 entries
 * medium: BED file(s) with ~ 1,000 entries
 * large: BED file(s) with ~100,000 entries
 
-2. As a good practice, please insert comments in your code to make it
+**2.** As a good practice, please insert comments in your code to make it
 more readable, but also easy to maintain/develop by somebody else than
 yourself.
 
 
-Problem 3. Please download GPL6947-xxx.txt, the platform of microarray at
+**Problem 3.** Please download GPL6947-xxx.txt, the platform of microarray at
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6947
 Click Download Full Table to retrieve it.
 Attached is GSE47438.csv, the microarray expression data. Please write a Python program to read in both platform file and the expression data file and convert the expression data from probe id based to gene symbol based. If there are multiple rows with the same gene symbol, select the one whose sum across the row is greatest and discard the rest.  Output the result to a new csv file.
