@@ -27,26 +27,26 @@ a number of files such as all entries in one file belong to the same chromosome.
 
 Hints: file handles, hash
 
-Problem 2. Next, we receive as input two bed file like the one above,
+**Problem 2.** Next, we receive as input two bed file like the one above,
 with the property that the names in both files are matching,
 but not the genomic coordinates.
 
-a_ Produce a script that takes as input the BED files and determines
+**a)** Produce a script that takes as input the BED files and determines
 all reads that have the following property
 * have mappings in both files on the same chromosome
 * the mappings are no longer that 1000 basepairs apart
 
 For example
 
-File 1: 
-chr1    3   10  one 1   +
-chr2    4   5   two 1   +
-chr2    1000    2000    three   1   +
+File 1: \
+chr1    3   10  one 1   + \
+chr2    4   5   two 1   + \
+chr2    1000    2000    three   1   + \
 
-File 2:
-chr7    3   10  one 1   +
-chr2    450   700   two 1   +
-chr2    11000    12000    three   1   +
+File 2:\
+chr7    3   10  one 1   +\
+chr2    450   700   two 1   +\
+chr2    11000    12000    three   1   +\
 
 The only read that passes is "two". Read "one" has the ends mapping on different chromosomes,
 while "three" has the ends about 10,000 base pairs apart, which exceeds 1000.
