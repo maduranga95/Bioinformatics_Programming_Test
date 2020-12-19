@@ -70,5 +70,6 @@ yourself.
 
 **Problem 3.** Please download GPL6947-xxx.txt, the platform of microarray at
 https://www.ncbi.nlm.nih.gov/geo/query/acc.cgi?acc=GPL6947
-Click Download Full Table to retrieve it.
-Attached is GSE47438.csv, the microarray expression data. Please write a Python program to read in both platform file and the expression data file and convert the expression data from probe id based to gene symbol based. If there are multiple rows with the same gene symbol, select the one whose sum across the row is greatest and discard the rest.  Output the result to a new csv file.
+Click Download Full Table to retrieve it.[located near the end of the web page]
+
+Attached in this repo is GSE47438.csv, the microarray expression data. Please write a Python program to read in both platform file and the expression data file and convert the expression data from probe id based to gene symbol based. If there are multiple rows with the same gene symbol, select the one whose sum across the row is greatest and discard the rest.  Output the result to a new csv file.
