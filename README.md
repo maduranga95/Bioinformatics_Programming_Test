@@ -41,12 +41,12 @@ For example
 File 1: \
 chr1    3   10  one 1   + \
 chr2    4   5   two 1   + \
-chr2    1000    2000    three   1   +  \
+chr2    1000    2000    three   1   +  
 
 File 2: \
 chr7    3   10  one 1   + \
 chr2    450   700   two 1   + \
-chr2    11000    12000    three   1   + \
+chr2    11000    12000    three   1   + 
 
 The only read that passes is "two". Read "one" has the ends mapping on different chromosomes,
 while "three" has the ends about 10,000 base pairs apart, which exceeds 1000.
