@@ -1,4 +1,4 @@
-# Bioinformatics Programming Test [Difficulty: Intermediate]
+# Bioinformatics Programming Test 
 
 The following programming test is meant to be conducted in the Python language, using the standard libraries. The expected deliverables are Python scripts that could be run from the command line on a regular Unix station. The face-to-face portion of the test consists of going over the scripts line by line via screen sharing in a zoom call. I expect the code to be documented via comments, so potentially another programmer could build on it. 
 
