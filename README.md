@@ -51,7 +51,7 @@ chr2    11000    12000    three   1   +
 The only read that passes is "two". Read "one" has the ends mapping on different chromosomes,
 while "three" has the ends about 10,000 base pairs apart, which exceeds 1000.
 
-**b)** Question. Assume we have at our disposal multiple computers, and our input BED files are really big.
+**b)** Assume we have at our disposal multiple computers, and our input BED files are really big.
 Is there a way to combine what you have done at 1) with 2a) to speed up the process ?
 
 
@@ -62,7 +62,7 @@ Notes:
 * large: BED file(s) with ~100,000 entries
 
 **2.** As a good practice, please insert comments in your code to make it
-more readable, but also easy to maintain/develop by somebody else than
+more readable, but also easy to execute/maintain/develop by somebody else than
 yourself.
 
 
