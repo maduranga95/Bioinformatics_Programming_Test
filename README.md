@@ -9,9 +9,9 @@ http://genome.ucsc.edu/FAQ/FAQformat.html#format1
 
 As an example, you might get a TAB-delimited text file containing lines such as
 
-chr1    3   10  one 1   +. 
-chr2    4   5   two 1   +. 
-chr2    1000    2000    three   1   +. 
+chr1    3   10  one 1   + <br/>
+chr2    4   5   two 1   + <br/>
+chr2    1000    2000    three   1   + <br/>
 
 
 with the following fields
