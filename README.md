@@ -2,7 +2,7 @@
 
 The following programming test is meant to be conducted in the Python language, using the standard libraries. The expected deliverables are Python scripts that could be run from the command line on a regular Unix station. The face-to-face portion of the test consists of going over the scripts line by line via screen sharing in a zoom call. I expect the code to be documented via comments, so potentially another programmer could build on it. 
 
-Problem 1. In genomics data, we usually deal with large text files containing chromosome
+**Problem 1.** In genomics data, we usually deal with large text files containing chromosome
 locations. An example is the BED file format, defined at
 
 http://genome.ucsc.edu/FAQ/FAQformat.html#format1
