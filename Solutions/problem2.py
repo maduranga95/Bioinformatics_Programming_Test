@@ -23,9 +23,9 @@ for i in range(len(df1)):
         # Check for chromosome
         if (df1[i][0]==df2[j][0]):
             # Check whether 1000 basepairs apart
-            if (int(df1[i][1])>int(df2[j][2]) and int(df2[i][1])- int(df1[j][2])<=1000) or (int(df1[i][2])<int(df2[j][1]) and int(df2[j][1])- int(df1[i][2])<=1000):
+            if (abs(int(df1[i][1])- int(df2[j][2]))<=1000) or (abs(int(df2[j][1])- int(df1[i][2]))<=1000):
                 rows.append(df1[i])
-                rows.append(df2[i])
+                rows.append(df2[j])
 
 # Writing to the file using pandas dataframe
 path = "Output_files/prob2_output.bed"
