@@ -4,7 +4,7 @@ import pandas
 
 # Read file to dataframe
 try:
-    df = pandas.read_csv('Input_files/testcasde_100000_1.bed', sep='\t',header=None)
+    df = pandas.read_csv('Input_files/testcase_100000_1.bed', sep='\t',header=None)
 
     # Add Column headers
     df.columns = ['chromosome', 'start', 'stop', 'name', 'score', 'strand']
@@ -12,7 +12,7 @@ try:
     # Group by chromosome and write to seperate files
     for i, g in df.groupby(['chromosome']):
         path = "Output_files/output_" + i+ ".bed"
-        g.to_csv(path, header=None, sep='\t')
+        g.to_csv(path, header=None, sep='\t', index=False)
 except (FileNotFoundError, IOError):
     print("File not found.")
     
