@@ -13,7 +13,7 @@ def flatten(l):
 # Reading expression file
 expression_df = pd.read_csv('Input_files/GSE47438.csv', sep=',')
 
-# Save header for later writing
+# Save header for later writing to output file
 headers = list(expression_df.columns)
 
 # Remove header from data
